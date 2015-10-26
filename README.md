@@ -32,6 +32,9 @@ Fetch and compile the dependency
 
 ```mix do deps.get, deps.compile```
 
+Sometimes, in order for it to pick up the latest dependency, you might need to run the following commands:
+```mix do deps.update ex_admin, deps.compile ex_admin```
+
 Configure ExAdmin:
 
 ```
